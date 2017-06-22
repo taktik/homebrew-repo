@@ -1,9 +1,9 @@
 class Oz < Formula
   desc "Ozone command line interface"
   homepage "https://www.taktik.com"
-  url "https://raw.githubusercontent.com/taktik/homebrew-repo/master/archives/ozone-client-cli-3.1.3.jar"
-  version "3.1.3"
-  sha256 "d7426c9e1be5638b19326c578a69105f0df350906966267e6e7fc277c5bac94e"
+  url "https://raw.githubusercontent.com/taktik/homebrew-repo/master/archives/ozone-client-cli-3.1.4.jar"
+  version "3.1.4"
+  sha256 "daed99010f2b9626c6f1be9ee73699d9d167f9e7a9cc53944de700c1b3ab493c"
 
 
   depends_on :java => "1.8+"
@@ -11,9 +11,9 @@ class Oz < Formula
   bottle :unneeded
 
   def install
-    jar = "ozone-client-cli-3.1.3.jar"
+    jar = "ozone-client-cli-3.1.4.jar"
     libexec.install jar
-    bin.write_jar_script libexec/"ozone-client-cli-3.1.3.jar", "oz"
+    bin.write_jar_script libexec/"ozone-client-cli-3.1.4.jar", "oz"
   end
 
   test do
