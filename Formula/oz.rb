@@ -3,7 +3,7 @@ class Oz < Formula
   homepage "https://www.taktik.com"
   url "https://raw.githubusercontent.com/taktik/homebrew-repo/master/archives/ozone-client-cli-3.1.5.jar"
   version "3.1.5"
-  sha256 "daed99010f2b9626c6f1be9ee73699d9d167f9e7a9cc53944de700c1b3ab493c"
+  sha256 "9aa32896250288c1fb1994a8c092b665141fabf90be4fe4a2fa269f999005312"
 
 
   depends_on :java => "1.8+"
