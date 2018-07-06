@@ -4,7 +4,7 @@ class Oz < Formula
   homepage "https://www.taktik.com"
   url "https://raw.githubusercontent.com/taktik/homebrew-repo/master/archives/ozone-client-cli-#@@git_version.jar"
   version @@git_version
-  sha256 "4b533d18e4d52aab65bdda4308c042d32c9d2fceedac37cd6019332a37118d4f"
+  sha256 "2bddfa56604c58245deb40f0bb52f20a9695c441eb786676d1333181fda340bb"
 
 
   depends_on :java => "1.8+"
