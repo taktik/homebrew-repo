@@ -1,5 +1,5 @@
 class Oz < Formula
-  git_version = "3.1.81"
+  @@git_version = "3.1.81"
   desc "Ozone command line interface"
   homepage "https://www.taktik.com"
   url "https://raw.githubusercontent.com/taktik/homebrew-repo/master/archives/ozone-client-cli-#{git_version}.jar"
