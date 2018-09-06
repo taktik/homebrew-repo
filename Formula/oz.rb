@@ -1,10 +1,10 @@
 class Oz < Formula
-  @@git_version = "3.1.84"
+  @@git_version = "3.1.85"
   desc "Ozone command line interface"
   homepage "https://www.taktik.com"
   url "https://raw.githubusercontent.com/taktik/homebrew-repo/master/archives/ozone-client-cli-#@@git_version.jar"
   version @@git_version
-  sha256 "5290ec2eb84578c0c96b7637000fd7b10eb38b58209290e6554e4467cef77eca"
+  sha256 "001e1123a11ed02fc26a3d698ed611c9e2660c8c78a7ebb1e44c23f41e85fedc"
 
 
   depends_on :java => "1.8+"
