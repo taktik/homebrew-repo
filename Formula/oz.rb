@@ -3,7 +3,7 @@ class Oz < Formula
   desc "Ozone command line interface"
   homepage "https://www.taktik.com"
   url "https://raw.githubusercontent.com/taktik/homebrew-repo/master/archives/client-cli-#@@git_version.jar"
-  version 3.3.1246
+  version "3.3.1246"
   sha256 "734b08376ecae24ff9d54e11caf9a87073f47229d004790fb3d242f9c5766720"
 
 
